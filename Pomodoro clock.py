@@ -10,7 +10,7 @@ How the clock algorithm works
 3) The main purpose of this clock is to increase your productivity.
 """
 ############################################
-repetition=0 # Tells about the repetions of cycles in Pomodoro cycle
+reps=0 # Tells about the repetions of cycles in Pomodoro cycle
 work_sec=25*60
 short_break_sec=5*60
 long_break_sec=20*60

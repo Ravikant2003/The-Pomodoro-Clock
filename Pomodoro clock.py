@@ -23,7 +23,7 @@ windows.title("Pomodoro Clock")
 windows.minsize(height=600,width=600)
 windows.config(padx=100,pady=100,bg="Yellow")
 
-canvas=tkinter.Canvas(width=200,height=224,bg="yellow",highlightthickness=0) #Canvas helps to create Background
+canvas=tkinter.Canvas(width=200,height=224,bg="yellow",highlightthickness=0) #Canvas helps to create Background, but need to define config first
 tomato=tkinter.PhotoImage(file="tomato.png") #Helped to create the tomato png
 canvas.create_image(100,112,image=tomato)
 timertext=canvas.create_text(100,130,text="00:00",fill="White",font=("Franklin Gothic",35,"bold","italic"))
